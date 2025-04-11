@@ -1,0 +1,5 @@
+print("Let's calculate the hypotenuse of the right triangle:\n")
+a = float(input('Side a: '))
+b = float(input('Side b: '))
+c = float(((a**2)+(b**2))**(1/2))
+print(f"\nThe hypotenuse of the triangle is: {c:.2f}")
