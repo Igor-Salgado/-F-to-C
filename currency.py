@@ -1,0 +1,6 @@
+print("Let's calculate the amount you have in USD after the trip:\n")
+COP = float(input('What do you have left in pesos: '))
+PEN = float(input('What do you have left in soles: '))
+BRL = float(input('What do you have left in reais: '))
+USD = float((COP*0.0002)+(PEN*0.2733)+(BRL*0.16))
+print(f"\nYou have: U$ {USD:.2f}")
